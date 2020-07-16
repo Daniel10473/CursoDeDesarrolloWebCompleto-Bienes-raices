@@ -146,12 +146,14 @@ h4 {
     max-width: 60rem;
     line-height: 2;
 }
-.barra {
+.barra-site-principal,
+.barra{
     padding-top: 3rem;
     align-items: center;
 }  
 @media (min-width: 768px) {
-    .barra {
+    .barra-side-principal,
+    .barra{
     display: flex;
     justify-content: space-between;
     }
@@ -422,6 +424,18 @@ h4 {
 
 
 /*Nosotros*/
+
+@media (min-width: 768px) {
+    .barra {
+        width: 100%;
+        padding: 1.6rem;
+        align-items: center;
+        background-color: #000000;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+}
 
 .contenido-nosotros {
     display: grid;
